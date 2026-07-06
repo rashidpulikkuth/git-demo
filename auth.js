@@ -9,4 +9,6 @@ export const login = (username, password) => {
   } else {
     return { success: false, message: "Invalid username or password" };
   }
+
+  // this is a placeholder for the actual authentication logic, which would typically involve checking the credentials against a database or an external authentication service.
 };
